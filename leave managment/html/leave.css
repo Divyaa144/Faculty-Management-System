@@ -1,0 +1,127 @@
+* {
+    background-color: #ebeef2;
+    margin: 0;
+    padding: 0;
+}
+.border1 {
+    border: solid black 0px;
+    height: 100px;
+    background-color: rgb(103, 120, 135);
+    width: 100%;
+    z-index: 14;
+    position: fixed;
+    top: 0;
+}
+.border1 h2{
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 25px;
+    font-size: 50px;
+}
+.border2 {
+    border: solid black 0px;
+    height: 100%;
+    background-color: rgb(103, 120, 135);
+    width: 60px;
+    z-index: 14;
+    position: fixed;
+}
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 20px;
+    position: relative;
+}
+.icons span {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.icons img {
+    width: auto;
+    background-color: transparent;
+    display: inline-block;
+}
+.sick:hover,
+.personal:hover,
+.study:hover,
+.vacation:hover,
+.emergency:hover,
+.maternity:hover
+ {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+.sick img{
+    padding-left: 300px;
+    padding-top: 150px;
+    width: 150px;
+}
+.personal img{
+    padding-left: 100px;
+    padding-top: 150px;
+    width: 150px;
+}
+.study img{
+    padding-left: 100px;
+    padding-top: 150px;
+    width: 150px;
+}
+.emergency img{
+    padding-left:300px;
+    padding-top: 50px;
+    width: 150px;
+}
+.vacation img{
+    padding-left: 150px;
+    padding-top: 50px;
+    width: 150px;
+}
+.maternity img{
+    padding-left: 150px;
+    padding-top: 50px;
+    width: 150px;
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine {
+    position: absolute;
+    background-color: transparent;
+    z-index: 8;
+    text-transform: uppercase;
+    color: black;
+}
+.one{
+    padding-top: 50px;
+    padding-left: 300px;
+}
+.two{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.three{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.four{
+    padding-top: 50px;
+    padding-left: 300px;
+}
+.five{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.six{
+    padding-top: 50px;
+    padding-left: 100px;
+}

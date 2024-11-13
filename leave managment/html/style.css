@@ -1,0 +1,279 @@
+    * {
+        background-color: rgb(196, 208, 219);
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        border: solid black 0px;
+        height: 60px;
+        background-color: rgb(103, 120, 135);
+        width: 100%;
+        z-index: 14;
+        position: fixed;
+    }
+
+    .login {
+        margin-left: 1300px;
+        background-color: rgb(103, 120, 135);
+        text-transform: uppercase;
+        position: absolute;
+        padding-top: 15px;
+        font-weight: bold;
+        transform: translateY(-50%);
+        top: 50%;
+    }
+
+    .search {
+        position: absolute;
+        margin-left: 1050px;
+        background-color: rgb(196, 208, 219);
+        padding: 4px;
+        transform: translateY(-50%);
+        top: 50%;
+        border-radius: 5px;
+    }
+
+    .Edu {
+        background-color: rgb(103, 120, 135);
+        padding-left: 100px;
+        padding-top: 19px;
+        font-weight: bolder;
+        font-size: larger;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .navbar img {
+        height: 50px;
+        width: 50px;
+        padding-left: 40px;
+        background-color: rgb(103, 120, 135);
+        position: absolute;
+        transform: translateY(-50%);
+        top: 50%;
+    }
+
+    .image img {
+        padding-top: 65px;
+        width: 1550px;
+        height: 400px;
+        object-fit: cover;
+        max-width: 100%;
+        max-height: 100%;
+        position: relative;
+    }
+
+    .image2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 400px;
+        height: 400px;
+        padding-top: 110px;
+        background-color: transparent;
+    }
+
+    .image2 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-color: transparent;
+        padding-left: 90px;
+        z-index: 11;
+    }
+
+    .image3 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-color: transparent;
+
+    }
+
+    .image3 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 415px;
+        height: 415px;
+        padding-top: 105px;
+        background-color: transparent;
+        padding-left: 82px;
+        z-index: 10;
+    }
+
+    .para {
+        position: absolute;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 415px;
+        height: 415px;
+        padding-top: 150px;
+        background-color: transparent;
+        padding-left: 1000px;
+        color: white;
+    }
+
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 100px;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .icons span {
+        display: inline-flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .icons img {
+        width: auto;
+        background-color: transparent;
+        display: inline-block;
+    }
+    .home:hover,
+    .profile:hover,
+    .attendence:hover,
+    .classes:hover,
+    .assignment:hover,
+    .calender:hover,
+    .report:hover,
+    .leave:hover,
+    .unknown:hover,
+    .one:hover,
+    .two:hover,
+    .three:hover,
+    .four:hover,
+    .five:hover,
+    .six:hover,
+    .seven:hover,
+    .eight:hover,
+    .nine:hover {
+        transform: scale(1.1);
+        transition: transform 0.2s ease;
+    }
+    .home img {
+        height: 180px;
+        background-color: transparent;
+    }
+
+    .profile img,
+    .attendence img,
+    .classes img,
+    .assignment img,
+    .calender img,
+    .report img,
+    .unknown img {
+        height: 200px;
+        background-color: transparent;
+    }
+
+    .leave img {
+        height: 250px;
+        background-color: transparent;
+    }
+
+    .home {
+        padding-left: 250px;
+        padding-top: 160px;
+        background-color: transparent;
+    }
+
+    .profile {
+        margin-left: 20px;
+        padding-top: 150px;
+    }
+
+    .attendence {
+        margin-left: 20px;
+        padding-top: 150px;
+    }
+
+    .classes {
+        padding-left: 230px;
+    }
+
+    .assignment {
+        margin-left: 20px;
+    }
+
+    .calender {
+        margin-left: 20px;
+    }
+
+    .report {
+        padding-left: 310px;
+    }
+
+    .leave {
+        margin-left: 20px;
+    }
+
+    .unknown {
+        margin-left: -100px;
+    }
+
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six,
+    .seven,
+    .eight,
+    .nine {
+        position: absolute;
+        background-color: transparent;
+        z-index: 8;
+        text-transform: uppercase;
+        color: black;
+    }
+
+    .one {
+        padding-left: 50px;
+        padding-top: 10px;
+    }
+
+    .two {
+        padding-left: 120px;
+        padding-top: 00px;
+    }
+
+    .three {
+        padding-left: 50px;
+        padding-top: 00px;
+    }
+
+    .four {
+        padding-left: 120px;
+        padding-top: 0px;
+    }
+
+    .five {
+        padding-left: 70px;
+        padding-top: 0px;
+    }
+
+    .six {
+        padding-left: 50px;
+        padding-top: 0px;
+    }
+
+    .seven {
+        padding-left: 50px;
+        padding-top: 0px;
+    }
+
+    .eight {
+        padding-left: 120px;
+        margin-top: -50px;
+    }
+
+    .nine {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
